@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <string>
 
 /**
- * main - Prints the alphabet.
+ * main - Prints the alphabet without e and q
  *
  * Return: Always 0 (Success)
  */
@@ -19,4 +19,4 @@ int main(void)
 		}
 		putchar('\n');
 		return (0);
-	}
+}
