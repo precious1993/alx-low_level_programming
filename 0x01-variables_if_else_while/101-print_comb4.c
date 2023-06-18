@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible different cominations of three digits
+ * main - Prints all possible diferent combinations of three digits
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -19,10 +19,10 @@ int main(void)
 					putchar(n);
 					putchar(m);
 					putchar(i);
-					if (n != 55 || m != 56)
+					if (n !=55 || m != 56)
 					{
 						putchar(',');
-						putchar('');
+						putchar(',');
 					}
 				}
 			}
@@ -30,4 +30,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
+}	
