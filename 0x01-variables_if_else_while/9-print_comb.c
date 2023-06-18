@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints combination of numbers
- * Return: 0 (Success)
+ * main - Print combination of numbers
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -11,6 +11,10 @@ int main(void)
 	for (n = 48; n <= 57; n++)
 	{
 		putchar(n);
+		if (n == 57)
+		{
+			continue;
+		}
 		putchar(',');
 	}
 	putchar('\n');
