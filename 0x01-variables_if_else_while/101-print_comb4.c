@@ -2,7 +2,7 @@
 
 /**
  * main - Prints all possible combinations of three digits
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -22,7 +22,7 @@ int main(void)
 					if (n != 55 || m != 56)
 					{
 						putchar(',');
-						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
