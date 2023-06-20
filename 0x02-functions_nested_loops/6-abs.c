@@ -2,8 +2,8 @@
 
 /**
  * _abs - computes the absolute value of an integer.
- *@c: The number to be computed.
- *Return: Absolute value of number or zero
+ * @c: The number to be computed.
+ * Return: Absolute value of number or zero
  */
 
 int abs(int c)
