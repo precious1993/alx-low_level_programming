@@ -9,6 +9,7 @@
 int main(void)
 {
     int r;
+
     r = abs(-1);
     printf("%d\n", r);
     r = abs(0);
