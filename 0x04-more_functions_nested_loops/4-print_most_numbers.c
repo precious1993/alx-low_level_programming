@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print numbers from 0 to 9 
- * Description: Prints the numbers excluding 2 and 4
+ * print_most_numbers - Print the numbers from 0 to 9
+ * Description: The numbers excluding 2 and 4
  * Return: The numbers from 0 to 9
  */
 
