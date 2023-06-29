@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - function that adds two numbers
+ * Return: 0
+ */
+
 int main(void)
 {
 int n;
