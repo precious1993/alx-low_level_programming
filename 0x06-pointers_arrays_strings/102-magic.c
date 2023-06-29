@@ -2,7 +2,7 @@
 
 /**
  * main - function that adds two numbers
- * Return: 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
