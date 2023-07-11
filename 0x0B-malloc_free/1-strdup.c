@@ -5,18 +5,19 @@
 /**
  * _strdup - returns a pointer to a newly allocated space in memory
  * @str: char
- * Return: 0
+ * Return: 0 (Success)
  */
 
 char *_strdup(char *str)
 {
 	char *copy = NULL;
-	int i,r = 0;
+	int i, r = 0;
 
 	if (str == NULL)
 		return (NULL);
 
-	while (str[i])
+         i = 0;
+	while (str[i] != '\0')
 		i++;
 	copy = malloc(sizeof(char) * (i + 1));
 	if (copy == NULL)
